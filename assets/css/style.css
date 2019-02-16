@@ -16,24 +16,54 @@ body {
     font-size: 50px;
     color: black;
     text-align: center;
-    /* margin-left: 170px; */
     font-family: 'Major Mono Display', monospace;
-    /* font-family: 'Montserrat Subrayada', sans-serif; */
-    /* font-family: 'Notable', sans-serif; */
-    margin-top: 30px;
+    margin-top: 127px;
 }
 
 .title {
     font-size: 18px;
     text-align: center;
     color: black;
-    margin-top: 25px;
-    /* margin-left: 170px; */
+    margin-top: 28px;
     font-family: 'Major Mono Display', monospace;
-    /* font-family: 'Montserrat Subrayada', sans-serif; */
-    /* font-family: 'Notable', sans-serif; */
 }
-  
+
+#button {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 3.5px 25px;
+    /* text-align: center; */
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 208px;
+    margin-top: 35px;
+    font-family: 'Major Mono Display', monospace;
+}
+
+#button_about {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 3.5px 25px;
+    /* text-align: center; */
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 17px;
+    margin: 4px 2px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.icons {
+    margin-left: 255px; 
+    margin-top: 180px; 
+}
+
 .row {
     display: flex;
 }
@@ -45,39 +75,29 @@ body {
     margin-left: 30px;
 }
 
-#button {
-    background-color: black; 
-    border: none;
-    color: white;
-    padding: 10px 35px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 17px;
-    margin: 4px 2px;
-    cursor: pointer;
-    margin-left: 260px;
-    margin-top: 50px;
-     /* margin-left: 170px; */
-    font-family: 'Major Mono Display', monospace;
-    /* font-family: 'Montserrat Subrayada', sans-serif; */
-    /* font-family: 'Notable', sans-serif; */
-}
-
-.icons {
-    margin-left: 255px;
-    margin-top: 220px;
-}
-
 .name_2 {
     font-size: 27px;
     color: black;
     text-align: center;
     margin-left: 20px;
     font-family: 'Major Mono Display', monospace;
-    /* font-family: 'Montserrat Subrayada', sans-serif; */
-    /* font-family: 'Notable', sans-serif; */
     float: left;
+}
+
+#button_a {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 3.5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: 'Major Mono Display', monospace;
+    float: right;
 }
 
 #button2 {
@@ -88,13 +108,11 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 17px;
+    font-size: 14px;
     margin: 4px 2px;
     margin-right: 20px;
     cursor: pointer;
-     font-family: 'Major Mono Display', monospace;
-    /* font-family: 'Montserrat Subrayada', sans-serif; */
-    /* font-family: 'Notable', sans-serif; */
+    font-family: 'Major Mono Display', monospace;
     float: right;
 }
 
@@ -102,10 +120,7 @@ body {
     font-size: 37px;
     color: black;
     text-align: center;
-    /* margin-left: 170px; */
     font-family: 'Major Mono Display', monospace;
-    /* font-family: 'Montserrat Subrayada', sans-serif; */
-    /* font-family: 'Notable', sans-serif;  */
     clear: left;   
 }
 
@@ -316,6 +331,81 @@ body {
     margin-right: 10px;
 }
 
+/* About Page */
+.name_3 {
+    font-size: 27px;
+    color: black;
+    text-align: center;
+    margin-left: 16px;
+    font-family: 'Major Mono Display', monospace;
+    float: left;
+}
+
+#button_3 {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 1px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    cursor: pointer;
+    font-family: 'Major Mono Display', monospace;
+    float: right;
+}
+
+#button_4 {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 1px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    cursor: pointer;
+    font-family: 'Major Mono Display', monospace;
+    float: right;
+}
+
+#about {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 37px;
+    color: black;
+    text-align: center; 
+    clear: left;   
+}
+
+.code_skills {
+    font-family: 'Major Mono Display', monospace;
+    color: black;
+    font-size: 15px;
+    text-indent: 50px;
+}
+
+.psych_skills {
+    font-family: 'Major Mono Display', monospace;
+    color: black;
+    font-size: 15px;
+    text-indent: 50px;
+    clear: left; 
+}
+
+.int_skills {
+    font-family: 'Major Mono Display', monospace;
+    color: black;
+    font-size: 15px;
+    text-indent: 50px;
+    clear: left; 
+}
+
 /* Media Queries */
 
 /* Index - 640px */
@@ -336,6 +426,14 @@ body {
     }
 
     #button {
+        width: 100%;
+    }
+
+    #button_about {
+        width: 100%;
+    }
+
+    .icons {
         width: 100%;
     }
   
@@ -364,7 +462,7 @@ body {
   
     .pages {
        width: 320px;
-     }
+    } 
 }
   
   /* Portfolio - 640px */
@@ -381,6 +479,10 @@ body {
     }
 
     #button2 {
+        width: 100%;
+    }
+
+    #button_a {
         width: 100%;
     }
 
@@ -409,10 +511,6 @@ body {
     }
 
     #psychic_game {
-        width: 100%;
-    }
-
-    .button {
         width: 100%;
     }
 
@@ -496,7 +594,51 @@ body {
     }
 }
 
-  /* Index - 768px */
+/* About - 640px */
+
+@media screen and (max-width: 640px) {
+
+.pages {
+    width: 100%;
+}
+
+.name_3 {
+    width: 100%;
+}
+
+#button_3 {
+    width: 100%;
+}
+
+#button_4 {
+    width: 100%;
+}
+
+#about {
+    width: 100%;
+}
+
+.code_skills {
+    width: 100%;
+}
+
+.psych_skills {
+    width: 100%;
+}
+
+.int_skills {
+    width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+
+.pages {
+   width: 320px;
+} 
+}
+}
+
+/* Index - 768px */
 
 @media screen and (max-width: 768px) {
 
@@ -513,6 +655,14 @@ body {
     }
 
     #button {
+        width: 100%;
+    }
+
+    #button_about {
+        width: 100%;
+    }
+
+    .icons {
         width: 100%;
     }
   
@@ -554,6 +704,10 @@ body {
         width: 100%;
     }
 
+    #button_a {
+        width: 100%;
+    }
+
     #portfolio {
         width: 100%;
     }
@@ -579,10 +733,6 @@ body {
     }
 
     #psychic_game {
-        width: 100%;
-    }
-
-    .button {
         width: 100%;
     }
 
@@ -658,8 +808,46 @@ body {
         width: 100%;
     }
 }
+
+/* About - 768px */
+
+@media screen and (max-width: 768px) {
+
+.pages {
+    width: 100%;
+}
+
+.name_3 {
+    width: 100%;
+}
+
+#button_3 {
+    width: 100%;
+}
+
+#button_4 {
+    width: 100%;
+}
+
+#about {
+    width: 100%;
+}
+
+.code_skills {
+    width: 100%;
+}
+
+.psych_skills {
+    width: 100%;
+}
+
+.int_skills {
+    width: 100%;
+}
+}
+
   
-  /* Index - 980px */
+/* Index - 980px */
 
 @media screen and (max-width: 980px) {
 
@@ -676,6 +864,14 @@ body {
     }
 
     #button {
+        width: 100%;
+    }
+
+    #button_about {
+        width: 100%;
+    }
+
+    .icons {
         width: 100%;
     }
   
@@ -717,6 +913,10 @@ body {
         width: 100%;
     }
 
+    #button_a {
+        width: 100%;
+    }
+
     #portfolio {
         width: 100%;
     }
@@ -742,10 +942,6 @@ body {
     }
 
     #psychic_game {
-        width: 100%;
-    }
-
-    .button {
         width: 100%;
     }
 
@@ -821,3 +1017,40 @@ body {
         width: 100%;
     }
 }
+
+/* About - 980px */
+
+@media screen and (max-width: 980px) {
+
+    .pages {
+        width: 100%;
+    }
+    
+    .name_3 {
+        width: 100%;
+    }
+    
+    #button_3 {
+        width: 100%;
+    }
+    
+    #button_4 {
+        width: 100%;
+    }
+    
+    #about {
+        width: 100%;
+    }
+    
+    .code_skills {
+        width: 100%;
+    }
+    
+    .psych_skills {
+        width: 100%;
+    }
+    
+    .int_skills {
+        width: 100%;
+    }
+    }
