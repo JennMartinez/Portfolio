@@ -127,7 +127,7 @@ body {
 
 /* Images on Portfolio Page */
 .p_img {
-    border: 1.75px solid orange;
+    border: 1.75px solid rgb(255, 115, 0);    
 }
 
 .c_img {
@@ -152,7 +152,7 @@ body {
 /* Project and Code Buttons on Portfolio Page */
 #psychic_game {
     background-color: black;
-    border: 1.75px solid orange;
+    border: 1.75px solid rgb(255, 115, 0);     
     color: black;
     text-align: center;
     text-decoration: none;
@@ -165,7 +165,7 @@ body {
 
 #psychic_code {
     background-color: black;
-    border: 1.75px solid orange;    
+    border: 1.75px solid rgb(255, 115, 0);    
     color: whitesmoke;
     text-align: center;
     text-decoration: none;
