@@ -6,10 +6,13 @@ body {
     background-image: url("../images/buildings.jpg");
 }
 
+/*  Index Page */
+
 .pages {
     background: rgba(255, 254, 254, 0.514);
     height: 700px;
     width: 700px;
+    margin: 0px auto;
 }
 
 .name {
@@ -32,37 +35,37 @@ body {
     background-color: black; 
     border: none;
     color: white;
-    padding: 3.5px 25px;
-    /* text-align: center; */
-    text-decoration: none;
-    /* display: inline-block; */
     font-size: 17px;
-    margin: 4px 2px;
+    margin: 10px 2px;
     cursor: pointer;
-    margin-left: 208px;
     margin-top: 35px;
     font-family: 'Major Mono Display', monospace;
+    margin-right: 100%;
+    margin-left: 28.5%;
+    width: 300px;
 }
 
 #button_about {
     background-color: black; 
     border: none;
     color: white;
-    padding: 3.5px 25px;
-    /* text-align: center; */
-    text-decoration: none;
-    /* display: inline-block; */
     font-size: 17px;
-    margin: 4px 2px;
-    margin-right: 20px;
+    margin: 7px 2px;
     cursor: pointer;
     font-family: 'Major Mono Display', monospace;
+    margin-right: 90%;
+    margin-left: 28.5%;
+    width: 300px;
 }
 
 .icons {
-    margin-left: 255px; 
+    margin-left: 36%;
+    margin-right: 90%;
     margin-top: 180px; 
+    width: 300px;
 }
+
+/* Portfolio Page */
 
 .row {
     display: flex;
@@ -70,9 +73,8 @@ body {
   
 .column {
     flex: 50%;
-    padding: 10px;
     height: 245px; 
-    margin-left: 30px;
+    margin: 0px auto;
 }
 
 .name_2 {
@@ -125,22 +127,26 @@ body {
 }
 
 .wrapper {
-    margin: 15px;
+    margin: 0px auto;
   }
   
 .orange-column {
     height: 95px;
+    margin-left: 10%;
 }
   
 .blue-column {
     height: 95px;
+    margin-left: 20%;
 }
   
 .green-column {
     height: 95px;
+    margin-left: 28%;
 }
 
 /* Images on Portfolio Page */
+
 .p_img {
     border: 1.75px solid rgb(255, 115, 0);    
 }
@@ -161,7 +167,7 @@ body {
 }
 
 .k_img {
-    border: 1.75px solid #2e9177; 
+    border: 1.75px solid #2e9177;
 }
 
 /* Project and Code Buttons on Portfolio Page */
@@ -173,7 +179,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 0px;
+    margin: 3px 0px;
     cursor: pointer;
     padding: 3px 31px;
 }
@@ -186,7 +192,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 0px;
+    margin: 3px 0px;
     cursor: pointer;
     padding: 3px 27px;
 }
@@ -199,10 +205,9 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 0px;
+    margin: 3px 0px;
     cursor: pointer;
     padding: 3px 18px;
-    margin-right: 10px;
 }
 
 #crystal_code {
@@ -213,10 +218,9 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 0px;
+    margin: 3px 0px;
     cursor: pointer;
     padding: 3px 28px;
-    margin-right: 10px;
 }
 
 #zombie_game {
@@ -227,10 +231,9 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 0px;
+    margin: 3px 0px;
     cursor: pointer;
     padding: 3px 27px;
-    margin-right: 10px;
 }
 
 #zombie_code {
@@ -241,10 +244,9 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 0px;
+    margin: 3px 0px;
     cursor: pointer;
     padding: 3px 27.5px;
-    margin-right: 10px;
 }
 
 #retro {
@@ -255,10 +257,9 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 0px;
+    margin: 3px 0px;
     cursor: pointer;
     padding: 3px 14.5px;
-    margin-right: 10px;
 }
 
 #retro_code {
@@ -269,10 +270,9 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 0px;
+    margin: 3px 0px;
     cursor: pointer;
     padding: 3px 37px;
-    margin-right: 10px;
 }
 
 #exosphere {
@@ -283,10 +283,9 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 0px;
+    margin: 3px 0px;
     cursor: pointer;
     padding: 3px 14px;
-    margin-right: 10px;
 }
 
 #exosphere_code {
@@ -297,10 +296,9 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 0px;
+    margin: 3px 0px;
     cursor: pointer;
     padding: 3px 19px;
-    margin-right: 10px;
 }
 
 #krave {
@@ -313,8 +311,7 @@ body {
     font-size: 16px;
     margin: 4px 0px;
     cursor: pointer;
-    padding: 3px 48px;
-    margin-right: 10px;
+    padding: 3px 47.5px;
 }
 
 #krave_code {
@@ -325,18 +322,19 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 0px;
+    margin: 3px 0px;
     cursor: pointer;
-    padding: 3px 32.5px;
-    margin-right: 10px;
+    padding: 2px 32px;
 }
 
 /* About Page */
+
 .name_3 {
     font-size: 27px;
     color: black;
     text-align: center;
     margin-left: 16px;
+    margin-top: 6px;
     font-family: 'Major Mono Display', monospace;
     float: left;
 }
@@ -345,7 +343,7 @@ body {
     background-color: black; 
     border: none;
     color: white;
-    padding: 1px 23px;
+    padding: 3.5px 23px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -362,7 +360,7 @@ body {
     background-color: black; 
     border: none;
     color: white;
-    padding: 1px 23px;
+    padding: 3.5px 23px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -410,7 +408,7 @@ body {
 
 /* Index - 640px */
 
-@media screen and (max-width: 640px) {
+@media screen and  (max-width: 640px) {
 
     .pages {
         width: 100%;
@@ -426,15 +424,15 @@ body {
     }
 
     #button {
-        width: 100%;
+        width: 40%;
     }
 
     #button_about {
-        width: 100%;
+        width: 40%;
     }
 
     .icons {
-        width: 100%;
+        width: 28%;
     }
   
     #linkedin {
@@ -458,7 +456,7 @@ body {
     }
 }
   
-  @media screen and (max-width: 320px) {
+  @media screen and  (max-width: 320px) {
   
     .pages {
        width: 320px;
@@ -467,7 +465,7 @@ body {
   
   /* Portfolio - 640px */
 
-@media screen and (max-width: 640px) {
+@media screen and  (max-width: 640px) {
 
     .pages {
         width: 100%;
@@ -587,7 +585,7 @@ body {
     }
 }
   
-  @media screen and (max-width: 320px) {
+  @media screen and  (max-width: 320px) {
   
     .pages {
       width: 320px;
@@ -596,7 +594,7 @@ body {
 
 /* About - 640px */
 
-@media screen and (max-width: 640px) {
+@media screen and  (max-width: 640px) {
 
 .pages {
     width: 100%;
@@ -630,7 +628,7 @@ body {
     width: 100%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and  (max-width: 320px) {
 
 .pages {
    width: 320px;
@@ -640,7 +638,7 @@ body {
 
 /* Index - 768px */
 
-@media screen and (max-width: 768px) {
+@media screen and  (max-width: 768px) {
 
     .pages {
         width: 100%;
@@ -655,15 +653,15 @@ body {
     }
 
     #button {
-        width: 100%;
+        width: 40%;
     }
 
     #button_about {
-        width: 100%;
+        width: 40%;
     }
 
     .icons {
-        width: 100%;
+        width: 28%;
     }
   
     #linkedin {
@@ -689,7 +687,7 @@ body {
 
 /* Portfolio - 768px */
 
-@media screen and (max-width: 768px) {
+@media screen and  (max-width: 768px) {
 
     .pages {
         width: 100%;
@@ -811,7 +809,7 @@ body {
 
 /* About - 768px */
 
-@media screen and (max-width: 768px) {
+@media screen and  (max-width: 768px) {
 
 .pages {
     width: 100%;
@@ -846,10 +844,9 @@ body {
 }
 }
 
-  
 /* Index - 980px */
 
-@media screen and (max-width: 980px) {
+@media screen and  (max-width: 980px) {
 
     .pages {
         width: 100%;
@@ -864,15 +861,15 @@ body {
     }
 
     #button {
-        width: 100%;
+        width: 40%;
     }
 
     #button_about {
-        width: 100%;
+        width: 40%;
     }
 
     .icons {
-        width: 100%;
+        width: 28%;
     }
   
     #linkedin {
@@ -898,7 +895,7 @@ body {
 
 /* Portfolio - 980px */
 
-@media screen and (max-width: 980px) {
+@media screen and  (max-width: 980px) {
 
     .pages {
         width: 100%;
@@ -1020,7 +1017,7 @@ body {
 
 /* About - 980px */
 
-@media screen and (max-width: 980px) {
+@media screen and  (max-width: 980px) {
 
     .pages {
         width: 100%;
