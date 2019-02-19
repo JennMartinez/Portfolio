@@ -24,7 +24,7 @@ body {
 }
 
 .title {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     color: black;
     margin-top: 28px;
@@ -386,6 +386,9 @@ body {
     color: black;
     font-size: 15px;
     text-indent: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
 }
 
 .psych_skills {
@@ -393,6 +396,9 @@ body {
     color: black;
     font-size: 15px;
     text-indent: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
     clear: left; 
 }
 
@@ -401,6 +407,9 @@ body {
     color: black;
     font-size: 15px;
     text-indent: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
     clear: left; 
 }
 
