@@ -132,17 +132,22 @@ body {
   
 .orange-column {
     height: 95px;
-    margin-left: 10%;
+    margin-left: 8%;
 }
   
 .blue-column {
     height: 95px;
-    margin-left: 20%;
+    margin-left: 8%;
 }
   
 .green-column {
     height: 95px;
-    margin-left: 28%;
+    margin-left: 8%;
+}
+
+.purple-column {
+    height: 95px;
+    margin-left: 8%;
 }
 
 /* Images on Portfolio Page */
@@ -159,15 +164,23 @@ body {
     border: 1.75px solid rgb(105, 11, 11);
 }
 
+.l_img {
+    border: 1.75px solid rgb(38, 160, 22);
+}
+
 .r_img {
     border: 1.75px solid rgb(233, 43, 148);
+    margin-left: 50px;
 }
 .e_img {
     border: 1.75px solid rgb(0, 204, 255);
+    margin-left: 27px;
 }
 
 .k_img {
-    border: 1.75px solid #2e9177;
+    border: 2px solid #2e9177;
+    margin-right: 20px;
+    margin-left: 2px;
 }
 
 /* Project and Code Buttons on Portfolio Page */
@@ -249,6 +262,32 @@ body {
     padding: 3px 27.5px;
 }
 
+#liri_app {
+    background-color: black;
+    border: 1.75px solid rgb(38, 160, 22);  
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 3px 21.5px;
+}
+
+#liri_code {
+    background-color: black;
+    border: 1.75px solid rgb(38, 160, 22);   
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 3px 37px;
+}
+
 #retro {
     background-color: black;
     border: 1.75px solid rgb(233, 43, 148);   
@@ -258,6 +297,7 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 3px 0px;
+    margin-left: 50px;
     cursor: pointer;
     padding: 3px 14.5px;
 }
@@ -271,8 +311,9 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 3px 0px;
+    margin-left: 50px;
     cursor: pointer;
-    padding: 3px 37px;
+    padding: 3px 36.5px;
 }
 
 #exosphere {
@@ -284,8 +325,9 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 3px 0px;
+    margin-left: 27px;
     cursor: pointer;
-    padding: 3px 14px;
+    padding: 3px 14.5px;
 }
 
 #exosphere_code {
@@ -297,8 +339,9 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 3px 0px;
+    margin-left: 27px;
     cursor: pointer;
-    padding: 3px 19px;
+    padding: 3px 19.5px;
 }
 
 #krave {
@@ -310,6 +353,7 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 4px 0px;
+    margin-left: 2px;
     cursor: pointer;
     padding: 3px 47.5px;
 }
@@ -323,6 +367,7 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 3px 0px;
+    margin-left: 2px;
     cursor: pointer;
     padding: 2px 32px;
 }
@@ -506,7 +551,7 @@ body {
     }
   
     .column {
-        width: 100%;
+        width: 30%;
     }
 
     .orange-column {
@@ -554,6 +599,22 @@ body {
     }
 
     #zombie_code {
+        width: 100%;
+    }
+
+    .purple-column {
+        width: 100%;
+    }
+
+    .l_img {
+        width: 100%;
+    }
+
+    #liri_app {
+        width: 100%;
+    }
+
+    #liri_code {
         width: 100%;
     }
 
@@ -779,6 +840,22 @@ body {
         width: 100%;
     }
 
+    .purple-column {
+        width: 100%;
+    }
+
+    .l_img {
+        width: 100%;
+    }
+
+    #liri_app {
+        width: 100%;
+    }
+
+    #liri_code {
+        width: 100%;
+    }
+
     .r_img {
         width: 100%;
     }
@@ -984,6 +1061,22 @@ body {
     }
 
     #zombie_code {
+        width: 100%;
+    }
+
+    .purple-column {
+        width: 100%;
+    }
+
+    .l_img {
+        width: 100%;
+    }
+
+    #liri_app {
+        width: 100%;
+    }
+
+    #liri_code {
         width: 100%;
     }
 
