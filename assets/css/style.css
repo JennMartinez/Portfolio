@@ -170,17 +170,18 @@ body {
 
 .r_img {
     border: 1.75px solid rgb(233, 43, 148);
-    margin-left: 50px;
 }
+
 .e_img {
     border: 1.75px solid rgb(0, 204, 255);
-    margin-left: 27px;
 }
 
 .k_img {
     border: 2px solid #2e9177;
-    margin-right: 20px;
-    margin-left: 2px;
+}
+
+.b_img {
+    border: 1.75px solid rgb(199, 180, 9);
 }
 
 /* Project and Code Buttons on Portfolio Page */
@@ -272,7 +273,7 @@ body {
     font-size: 16px;
     margin: 3px 0px;
     cursor: pointer;
-    padding: 3px 21.5px;
+    padding: 3px 40px;
 }
 
 #liri_code {
@@ -297,7 +298,6 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 3px 0px;
-    margin-left: 50px;
     cursor: pointer;
     padding: 3px 14.5px;
 }
@@ -311,7 +311,6 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 3px 0px;
-    margin-left: 50px;
     cursor: pointer;
     padding: 3px 36.5px;
 }
@@ -325,7 +324,6 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 3px 0px;
-    margin-left: 27px;
     cursor: pointer;
     padding: 3px 14.5px;
 }
@@ -339,7 +337,6 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 3px 0px;
-    margin-left: 27px;
     cursor: pointer;
     padding: 3px 19.5px;
 }
@@ -353,7 +350,6 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 4px 0px;
-    margin-left: 2px;
     cursor: pointer;
     padding: 3px 47.5px;
 }
@@ -367,9 +363,34 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 3px 0px;
-    margin-left: 2px;
     cursor: pointer;
     padding: 2px 32px;
+}
+
+#bamazon_app {
+    background-color: black;
+    border: 1.75px solid rgb(199, 180, 9);  
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 3px 26.5px;
+}
+
+#bamazon_code {
+    background-color: black;
+    border: 1.75px solid rgb(199, 180, 9);   
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 3px 23px;
 }
 
 /* About Page */
@@ -653,8 +674,20 @@ body {
     #krave_code {
         width: 100%;
     }
+
+    .b_img {
+        width: 100%;
+    }
+
+    #bamazon_app {
+        width: 100%;
+    }
+
+    #bamazon_code {
+        width: 100%;
+    }
 }
-  
+
   @media screen and  (max-width: 320px) {
   
     .pages {
@@ -891,6 +924,18 @@ body {
     #krave_code {
         width: 100%;
     }
+
+    .b_img {
+        width: 100%;
+    }
+
+    #bamazon_app {
+        width: 100%;
+    }
+
+    #bamazon_code {
+        width: 100%;
+    }
 }
 
 /* About - 768px */
@@ -1113,6 +1158,18 @@ body {
     }
 
     #krave_code {
+        width: 100%;
+    }
+
+    .b_img {
+        width: 100%;
+    }
+
+    #bamazon_app {
+        width: 100%;
+    }
+
+    #bamazon_code {
         width: 100%;
     }
 }
