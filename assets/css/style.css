@@ -11,7 +11,7 @@ body {
 .pages {
     background: rgba(255, 254, 254, 0.514);
     height: 700px;
-    width: 700px;
+    width: 900px;
     margin: 0px auto;
 }
 
@@ -69,6 +69,7 @@ body {
 
 .row {
     display: flex;
+    margin-bottom: 10px;
 }
   
 .column {
@@ -129,60 +130,83 @@ body {
 .wrapper {
     margin: 0px auto;
   }
-  
+
 .orange-column {
-    height: 95px;
+    height: 195px;
     margin-left: 8%;
 }
   
 .blue-column {
-    height: 95px;
+    height: 195px;
     margin-left: 8%;
 }
   
 .green-column {
-    height: 95px;
+    height: 195px;
     margin-left: 8%;
 }
 
 .purple-column {
-    height: 95px;
+    height: 195px;
+    margin-left: 8%;
+}
+
+.red-column {
+    height: 195px;
     margin-left: 8%;
 }
 
 /* Images on Portfolio Page */
 
 .p_img {
-    border: 1.75px solid rgb(255, 115, 0);    
+    border: 1.75px solid rgb(255, 115, 0); 
+    /* margin-top: -35px;    */
 }
 
 .c_img {
     border: 1.75px solid rgb(143, 52, 247);
+    /* margin-top: -35px;  */
 }
 
 .z_img {
     border: 1.75px solid rgb(105, 11, 11);
+    /* margin-top: -35px;  */
 }
 
 .l_img {
     border: 1.75px solid rgb(38, 160, 22);
+    /* margin-top: -35px;  */
+}
+
+.f_img {
+    border: 2px solid rgba(255, 196, 0, 0.993); 
+    /* margin-top: -35px;    */
+}
+
+.burger_img {
+    border: 2px solid rgb(240, 76, 0);
 }
 
 .r_img {
     border: 1.75px solid rgb(233, 43, 148);
+    /* margin-top: -100px;  */
 }
 
 .e_img {
     border: 1.75px solid rgb(0, 204, 255);
+    /* margin-top: -100px;  */
 }
 
 .k_img {
     border: 2px solid #2e9177;
+    /* margin-top: -100px;  */
 }
 
 .b_img {
-    border: 1.75px solid rgb(199, 180, 9);
+    border: 1.75px solid rgb(112, 120, 121);
+    /* margin-top: -100px;  */
 }
+
 
 /* Project and Code Buttons on Portfolio Page */
 #psychic_game {
@@ -289,6 +313,58 @@ body {
     padding: 3px 37px;
 }
 
+#friend_app {
+    background-color: black;
+    border: 1.75px solid rgba(255, 196, 0, 0.993);  
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 3px 27.5px;
+}
+
+#friend_code {
+    background-color: black;
+    border: 1.75px solid rgba(255, 196, 0, 0.993);   
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 3px 12px;
+}
+
+#burger_app {
+    background-color: black;
+    border: 1.75px solid  rgb(240, 76, 0);  
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 3px 19.5px;
+}
+
+#burger_code {
+    background-color: black;
+    border: 1.75px solid rgb(240, 76, 0);   
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 3px 4px;
+}
+
 #retro {
     background-color: black;
     border: 1.75px solid rgb(233, 43, 148);   
@@ -369,7 +445,7 @@ body {
 
 #bamazon_app {
     background-color: black;
-    border: 1.75px solid rgb(199, 180, 9);  
+    border: 1.75px solid rgb(112, 120, 121);  
     color: whitesmoke;
     text-align: center;
     text-decoration: none;
@@ -382,7 +458,7 @@ body {
 
 #bamazon_code {
     background-color: black;
-    border: 1.75px solid rgb(199, 180, 9);   
+    border: 1.75px solid rgb(112, 120, 121);   
     color: whitesmoke;
     text-align: center;
     text-decoration: none;
