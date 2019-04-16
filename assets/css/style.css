@@ -11,7 +11,7 @@ body {
 .pages {
     background: rgba(255, 254, 254, 0.514);
     height: 700px;
-    width: 900px;
+    width: 700px;
     margin: 0px auto;
 }
 
@@ -67,9 +67,16 @@ body {
 
 /* Portfolio Page */
 
+.portfolio_pages {
+    background: rgba(255, 254, 254, 0.514);
+    height: 700px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
 .row {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
   
 .column {
@@ -132,27 +139,32 @@ body {
   }
 
 .orange-column {
-    height: 195px;
+    height: 105%;
     margin-left: 8%;
 }
   
 .blue-column {
-    height: 195px;
+    height: 105%;
     margin-left: 8%;
 }
   
 .green-column {
-    height: 195px;
+    height: 105%;
     margin-left: 8%;
 }
 
 .purple-column {
-    height: 195px;
+    height: 105%;
     margin-left: 8%;
 }
 
 .red-column {
-    height: 195px;
+    height: 105%;
+    margin-left: 8%;
+}
+
+.yellow-column {
+    height: 105%;
     margin-left: 8%;
 }
 
@@ -207,6 +219,11 @@ body {
     /* margin-top: -100px;  */
 }
 
+.bounty_img {
+    border: 2px solid rgb(226, 192, 0);
+    /* margin-top: -100px;  */
+}
+
 
 /* Project and Code Buttons on Portfolio Page */
 #psychic_game {
@@ -219,7 +236,7 @@ body {
     font-size: 16px;
     margin: 3px 0px;
     cursor: pointer;
-    padding: 3px 31px;
+    padding: 3px 30.5px;
 }
 
 #psychic_code {
@@ -232,7 +249,7 @@ body {
     font-size: 16px;
     margin: 3px 0px;
     cursor: pointer;
-    padding: 3px 27px;
+    padding: 3px 26.5px;
 }
 
 #crystal_game {
@@ -245,7 +262,7 @@ body {
     font-size: 16px;
     margin: 3px 0px;
     cursor: pointer;
-    padding: 3px 18px;
+    padding: 3px 18.5px;
 }
 
 #crystal_code {
@@ -258,7 +275,7 @@ body {
     font-size: 16px;
     margin: 3px 0px;
     cursor: pointer;
-    padding: 3px 28px;
+    padding: 3px 28.5px;
 }
 
 #zombie_game {
@@ -284,7 +301,7 @@ body {
     font-size: 16px;
     margin: 3px 0px;
     cursor: pointer;
-    padding: 3px 27.5px;
+    padding: 3px 27px;
 }
 
 #liri_app {
@@ -313,32 +330,6 @@ body {
     padding: 3px 37px;
 }
 
-#friend_app {
-    background-color: black;
-    border: 1.75px solid rgba(255, 196, 0, 0.993);  
-    color: whitesmoke;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 3px 0px;
-    cursor: pointer;
-    padding: 3px 27.5px;
-}
-
-#friend_code {
-    background-color: black;
-    border: 1.75px solid rgba(255, 196, 0, 0.993);   
-    color: whitesmoke;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 3px 0px;
-    cursor: pointer;
-    padding: 3px 12px;
-}
-
 #burger_app {
     background-color: black;
     border: 1.75px solid  rgb(240, 76, 0);  
@@ -349,7 +340,7 @@ body {
     font-size: 16px;
     margin: 3px 0px;
     cursor: pointer;
-    padding: 3px 19.5px;
+    padding: 3px 44.5px;
 }
 
 #burger_code {
@@ -362,7 +353,33 @@ body {
     font-size: 16px;
     margin: 3px 0px;
     cursor: pointer;
-    padding: 3px 4px;
+    padding: 3px 29px;
+}
+
+#bounty_app {
+    background-color: black;
+    border: 1.75px solid rgb(226, 192, 0);  
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 3px 44px;
+}
+
+#bounty_code {
+    background-color: black;
+    border: 1.75px solid rgb(226, 192, 0);   
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 3px 28.5px;
 }
 
 #retro {
@@ -445,20 +462,20 @@ body {
 
 #bamazon_app {
     background-color: black;
-    border: 1.75px solid rgb(112, 120, 121);  
+    border: 1.75px solid #2e9177;   
     color: whitesmoke;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 3px 0px;
+    margin: 4px 0px;
     cursor: pointer;
-    padding: 3px 26.5px;
+    padding: 3px 26px;
 }
 
 #bamazon_code {
     background-color: black;
-    border: 1.75px solid rgb(112, 120, 121);   
+    border: 1.75px solid #2e9177;    
     color: whitesmoke;
     text-align: center;
     text-decoration: none;
@@ -466,7 +483,33 @@ body {
     font-size: 16px;
     margin: 3px 0px;
     cursor: pointer;
-    padding: 3px 23px;
+    padding: 2px 23px;
+}
+
+#friend_app {
+    background-color: black;
+    border: 1.75px solid rgba(255, 196, 0, 0.993);  
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 3px 27.5px;
+}
+
+#friend_code {
+    background-color: black;
+    border: 1.75px solid rgba(255, 196, 0, 0.993);   
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 3px 12px;
 }
 
 /* About Page */
@@ -618,7 +661,7 @@ body {
 
 @media screen and  (max-width: 640px) {
 
-    .pages {
+    .portfolio_pages {
         width: 100%;
         text-align: center;
     }
@@ -760,6 +803,50 @@ body {
     }
 
     #bamazon_code {
+        width: 100%;
+    }
+
+    .red-column {
+        width: 100%;
+    }
+
+    .burger_img {
+        width: 100%;
+    }
+
+    #burger_app {
+        width: 100%;
+    }
+
+    #burger_code {
+        width: 100%;
+    }
+
+    .f_img {
+        width: 100%;
+    }
+
+    #friend_app {
+        width: 100%;
+    }
+
+    #friend_code {
+        width: 100%;
+    }
+
+    .yellow-column {
+        width: 100%;
+    }
+
+    .bounty_img {
+        width: 100%;
+    }
+
+    #bounty_app {
+        width: 100%;
+    }
+
+    #bounty_code {
         width: 100%;
     }
 }
@@ -1012,6 +1099,50 @@ body {
     #bamazon_code {
         width: 100%;
     }
+
+    .red-column {
+        width: 100%;
+    }
+
+    .burger_img {
+        width: 100%;
+    }
+
+    #burger_app {
+        width: 100%;
+    }
+
+    #burger_code {
+        width: 100%;
+    }
+
+    .f_img {
+        width: 100%;
+    }
+
+    #friend_app {
+        width: 100%;
+    }
+
+    #friend_code {
+        width: 100%;
+    }
+
+    .yellow-column {
+        width: 100%;
+    }
+
+    .bounty_img {
+        width: 100%;
+    }
+
+    #bounty_app {
+        width: 100%;
+    }
+
+    #bounty_code {
+        width: 100%;
+    }
 }
 
 /* About - 768px */
@@ -1246,6 +1377,50 @@ body {
     }
 
     #bamazon_code {
+        width: 100%;
+    }
+
+    .red-column {
+        width: 100%;
+    }
+
+    .burger_img {
+        width: 100%;
+    }
+
+    #burger_app {
+        width: 100%;
+    }
+
+    #burger_code {
+        width: 100%;
+    }
+
+    .f_img {
+        width: 100%;
+    }
+
+    #friend_app {
+        width: 100%;
+    }
+
+    #friend_code {
+        width: 100%;
+    }
+
+    .yellow-column {
+        width: 100%;
+    }
+
+    .bounty_img {
+        width: 100%;
+    }
+
+    #bounty_app {
+        width: 100%;
+    }
+
+    #bounty_code {
         width: 100%;
     }
 }
