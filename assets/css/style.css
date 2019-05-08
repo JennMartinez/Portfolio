@@ -224,6 +224,11 @@ body {
     /* margin-top: -100px;  */
 }
 
+.abstract_img {
+    border: 2px solid rgb(3, 245, 23);
+    /* margin-top: -100px;  */
+}
+
 
 /* Project and Code Buttons on Portfolio Page */
 #psychic_game {
@@ -510,6 +515,32 @@ body {
     margin: 3px 0px;
     cursor: pointer;
     padding: 3px 12px;
+}
+
+#abstract_app {
+    background-color: black;
+    border: 1.75px solid rgb(3, 245, 23);
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 3px 23px;
+}
+
+#abstract_code {
+    background-color: black;
+    border: 1.75px solid rgb(3, 245, 23);  
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 3px 7.5px;
 }
 
 /* About Page */
@@ -847,6 +878,18 @@ body {
     }
 
     #bounty_code {
+        width: 100%;
+    }
+
+    .abstract_img {
+        width: 100%;
+    }
+
+    #abstract_app {
+        width: 100%;
+    }
+
+    #abstract_code {
         width: 100%;
     }
 }
